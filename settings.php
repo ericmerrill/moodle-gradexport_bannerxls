@@ -100,4 +100,28 @@ if ($ADMIN->fulltree) {
     $settings->add(new admin_setting_heading('gradeexport_bannerxls_specialcolumns',
                                              get_string('specialcolumns', 'gradeexport_bannerxls'), ''));
 
+    // Req last date
+
+    // Req hours
+
+    // Req extension date
+
+    // Req incomplete final grade
+
+    // Ext date limit
+
+    // Never attended
+
+
+    // Misc.
+    $settings->add(new admin_setting_heading('gradeexport_bannerxls_miscsettings',
+                                             get_string('_miscsettings', 'gradeexport_bannerxls'), ''));
+
+    // Limit to specific enrol plugin
+
+    // Include disabled enrolments
+
+    // Allow teacher enter user ID
+    //   Save teacher entered ID
+
 }
